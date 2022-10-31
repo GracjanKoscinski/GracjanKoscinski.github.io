@@ -1,0 +1,81 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+header
+{
+	width:100%;
+	height:50px;
+	background-color:orange;
+	text-align:center;
+	font-size:40px;
+}
+#lewy
+{
+width:50%;
+height:600px;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+float:left;
+}
+#prawy
+{
+	width:50%;
+	height:600px;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	float:left;
+}
+footer
+{
+	clear:both;
+	width:100%;
+background: rgb(31,221,223);
+background: linear-gradient(97deg, rgba(31,221,223,1) 0%, rgba(227,33,197,1) 100%);
+
+	font-size:40px;
+	height:90px;
+}
+h2
+{
+	text-align:center;
+}
+table.tabela1,table.tabela1 td, table.tabela1 th{
+  border: 2px solid;
+  text-align:center;
+ margin-left: auto;
+  margin-right: auto;
+  background-color:yellow;
+  font-size:25px;
+}
+img
+{
+	 display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 2px solid;
+}
+p
+{
+	font-size:25px;
+}
+#paragraf1
+{
+	text-align:center;
+}
+table.tabela2,table.tabela2 td, table.tabela2 th{
+  border: 2px solid;
+  text-align:center;
+ margin-left: auto;
+  margin-right: auto;
+  background-color:teal;
+  color:white;
+  border-collapse:collapse;
+  font-size:15px;
+}
